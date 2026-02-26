@@ -7,6 +7,7 @@ export function Books() {
     'The Hard Thing About Hard Things',
     'No Rules Rules',
     'Atomic Habits',
+    'Intelligent Investor',
   ]);
 
   return (
