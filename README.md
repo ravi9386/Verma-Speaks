@@ -169,6 +169,22 @@ excerpt: Short description    # Optional (auto-generated if missing)
 
 ## Deploying to GitHub Pages
 
+> **Tip:** If you ever deploy this (or any JavaScript-based) site to a
+> custom server, make sure the server sends `.js`/`.mjs` files with the
+> proper `Content-Type` header (`application/javascript` or
+> `text/javascript`). Browsers enforce strict MIME checking for module
+> scripts and will refuse to execute files served as
+> `application/octet-stream`.
+>
+> For Apache you can include the provided `.htaccess` file in the root
+> of your deployment to add the correct type automatically. Nginx users
+> should update the `types` map in their configuration, e.g.
+> `application/javascript  js mjs;`.
+>
+> See the **Troubleshooting** section later for more details.
+
+## Deploying to GitHub Pages
+
 ### Option 1: Using GitHub Pages (Free)
 
 1. Rename your repository to `username.github.io`
