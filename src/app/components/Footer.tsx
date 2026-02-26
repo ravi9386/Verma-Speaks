@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* About Section */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-4">Verma Speaks</h3>
+            <h3 className="text-white font-bold text-lg mb-4">Verma Wisdone</h3>
             <p className="text-sm leading-relaxed">
               A platform for sharing thoughts, stories, and ideas with the world.
             </p>
@@ -48,10 +48,10 @@ export function Footer() {
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
                 <a
-                  href="mailto:contact@vermaspeaks.com"
+                  href="mailto:contact@vermawisdone.com"
                   className="hover:text-white transition-colors"
                 >
-                  contact@vermaspeaks.com
+                  contact@vermawisdone.com
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -97,7 +97,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-            <p>&copy; 2026 Verma Speaks. All rights reserved.</p>
+            <p>&copy; 2026 Verma Wisdone. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-white transition-colors">
                 Privacy Policy

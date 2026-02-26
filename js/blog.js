@@ -1,6 +1,6 @@
 // Blog Configuration
 const BLOG_CONFIG = {
-    siteName: 'Verma Speaks',
+    siteName: 'Verma Wisdone',
     siteDescription: 'Thoughts on technology, life, and everything in between',
     postDirectory: '/posts',
 };

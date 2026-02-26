@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Verma Speaks - Local Server Setup Script
+# Verma Wisdone - Local Server Setup Script
 
-echo "🚀 Starting Verma Speaks Blog Server..."
+echo "🚀 Starting Verma Wisdone Blog Server..."
 echo ""
 
 # Check if Python 3 is available

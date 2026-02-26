@@ -1,4 +1,4 @@
-# Verma Speaks - Personal Blog
+# Verma Wisdone - Personal Blog
 
 A lightweight, static HTML/CSS/JavaScript personal blog with Markdown support. Perfect for deploying to GitHub Pages.
 
@@ -30,7 +30,7 @@ A lightweight, static HTML/CSS/JavaScript personal blog with Markdown support. P
 ## Project Structure
 
 ```
-Verma-Speaks/
+Verma-Wisdone/
 ├── index.html          # Homepage (blog listing)
 ├── post.html           # Individual post template
 ├── css/
@@ -50,7 +50,7 @@ Verma-Speaks/
 ### 1. Clone the Repository
 
 ```bash
-cd /path/to/Verma-Speaks
+cd /path/to/Verma-Wisdone
 ```
 
 ### 2. Add Your Blog Post
@@ -92,7 +92,7 @@ const postsList = [
 ### 4. Customize Your Blog
 
 Edit `index.html` to personalize:
-- Change "Verma Speaks" to your blog name
+- Change "Verma Wisdone" to your blog name
 - Update the hero section message
 - Add your real contact links
 - Update the about section

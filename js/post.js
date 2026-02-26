@@ -32,7 +32,7 @@ async function loadPostPage() {
 // Display post content
 function displayPost(post) {
     // Update page title
-    document.title = `${post.title} - Verma Speaks`;
+    document.title = `${post.title} - Verma Wisdone`;
     document.getElementById('post-title').textContent = post.title;
     
     // Update header
