@@ -1,4 +1,4 @@
-# Verma Wisdone - Personal Blog
+# Verma Wisdom - Personal Blog
 
 A lightweight, static HTML/CSS/JavaScript personal blog with Markdown support. Perfect for deploying to GitHub Pages.
 
@@ -26,11 +26,12 @@ A lightweight, static HTML/CSS/JavaScript personal blog with Markdown support. P
 - Automatic excerpt generation
 - Date-based sorting
 - Category organization
+- Books I Read sidebar (add your favorite titles)
 
 ## Project Structure
 
 ```
-Verma-Wisdone/
+Verma-Wisdom/
 ├── index.html          # Homepage (blog listing)
 ├── post.html           # Individual post template
 ├── css/
@@ -50,7 +51,7 @@ Verma-Wisdone/
 ### 1. Clone the Repository
 
 ```bash
-cd /path/to/Verma-Wisdone
+cd /path/to/Verma-Wisdom
 ```
 
 ### 2. Add Your Blog Post
@@ -92,7 +93,7 @@ const postsList = [
 ### 4. Customize Your Blog
 
 Edit `index.html` to personalize:
-- Change "Verma Wisdone" to your blog name
+- Change "Verma Wisdom" to your blog name
 - Update the hero section message
 - Add your real contact links
 - Update the about section
@@ -202,6 +203,9 @@ excerpt: Short description    # Optional (auto-generated if missing)
 1. Push code to GitHub
 2. Import repository in Vercel
 3. Deploy with one click
+
+
+Add or update the **Books I Read** section by editing the HTML/CSS directly or, in the React version, the `Books` component (`src/app/components/Books.tsx`).
 
 ## Customization Guide
 

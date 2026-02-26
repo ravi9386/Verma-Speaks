@@ -8,6 +8,7 @@ import { Label } from "../components/ui/label";
 import { ArrowLeft } from "lucide-react";
 import { TopNavigation } from "../components/TopNavigation";
 import { Sidebar } from "../components/Sidebar";
+import { Books } from "../components/Books";
 import { Footer } from "../components/Footer";
 
 export function CreatePost() {
@@ -100,6 +101,7 @@ export function CreatePost() {
             </form>
           </div>
         </main>
+        <Books />
       </div>
 
       <Footer />

@@ -135,8 +135,31 @@ header {
 
 .blog-section .container {
     display: grid;
-    grid-template-columns: 250px 1fr;
+    /* left sidebar, main content, right books column */
+    grid-template-columns: 250px 1fr 250px;
     gap: 3rem;
+}
+
+/* books section styling mirrors categories */
+.books .books-section {
+    background: var(--light-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.books h3 {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+.books ul {
+    list-style: none;
+}
+
+.books li {
+    margin-bottom: 0.5rem;
 }
 
 .sidebar {

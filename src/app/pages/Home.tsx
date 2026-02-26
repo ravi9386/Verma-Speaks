@@ -5,6 +5,7 @@ import { Button } from "../components/ui/button";
 import { PlusCircle } from "lucide-react";
 import { TopNavigation } from "../components/TopNavigation";
 import { Sidebar } from "../components/Sidebar";
+import { Books } from "../components/Books";
 import { Footer } from "../components/Footer";
 
 export function Home() {
@@ -57,6 +58,7 @@ export function Home() {
             </div>
           </div>
         </main>
+        <Books />
       </div>
 
       <Footer />
