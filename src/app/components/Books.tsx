@@ -2,7 +2,11 @@ import { useState } from "react";
 
 // simple placeholder component for books list
 export function Books() {
-  const [books] = useState<string[]>([/* add titles here */]);
+  const [books] = useState<string[]>([
+    'Psychology of Money',
+    'The Hard Thing About Hard Things',
+    'No Rules Rules',
+  ]);
 
   return (
     <aside className="w-64 bg-white shadow-md border-l border-gray-200 p-6">
