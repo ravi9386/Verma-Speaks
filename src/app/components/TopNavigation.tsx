@@ -3,16 +3,16 @@ import { Home, Compass, Users, User } from "lucide-react";
 
 export function TopNavigation() {
   return (
-    <nav className="bg-white shadow-md border-b border-gray-200">
+    <nav className="bg-gradient-to-r from-cyan-50 to-indigo-50 dark:from-slate-800 dark:to-indigo-900 shadow-md border-b border-cyan-200 dark:border-cyan-700">
       <div className="flex items-center justify-between px-6 py-4">
-        <Link to="/" className="text-2xl font-bold text-blue-600">
+        <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-cyan-600 to-indigo-600 dark:from-cyan-400 dark:to-indigo-400 bg-clip-text text-transparent">
           Verma Wisdom
         </Link>
 
         <div className="flex items-center gap-8">
           <Link
             to="/"
-            className="flex items-center gap-2 text-gray-700 hover:text-blue-600 transition-colors"
+            className="flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors font-medium"
           >
             <Home className="w-5 h-5" />
             <span>Home</span>
@@ -20,7 +20,7 @@ export function TopNavigation() {
 
           <Link
             to="/"
-            className="flex items-center gap-2 text-gray-700 hover:text-blue-600 transition-colors"
+            className="flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors font-medium"
           >
             <Compass className="w-5 h-5" />
             <span>Explore</span>
@@ -28,7 +28,7 @@ export function TopNavigation() {
 
           <Link
             to="/"
-            className="flex items-center gap-2 text-gray-700 hover:text-blue-600 transition-colors"
+            className="flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors font-medium"
           >
             <Users className="w-5 h-5" />
             <span>Collab</span>
@@ -36,7 +36,7 @@ export function TopNavigation() {
 
           <Link
             to="/"
-            className="flex items-center gap-2 text-gray-700 hover:text-blue-600 transition-colors"
+            className="flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors font-medium"
           >
             <User className="w-5 h-5" />
             <span>About Me</span>
