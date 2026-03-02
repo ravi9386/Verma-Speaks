@@ -8,6 +8,9 @@ export function Books() {
     'No Rules Rules',
     'Atomic Habits',
     'Intelligent Investor',
+    'Deep Work',
+    'Art of Spending Money',
+    'Just Keep Buying',
   ]);
 
   return (
