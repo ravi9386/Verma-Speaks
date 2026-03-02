@@ -35,7 +35,7 @@ export function TopNavigation() {
           </Link>
 
           <Link
-            to="/"
+            to="/about"
             className="flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors font-medium"
           >
             <User className="w-5 h-5" />
