@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { Mail, MapPin, Phone, Facebook, Twitter, Instagram } from "lucide-react";
+import { Mail, MapPin, Phone, Facebook, Linkedin, Instagram } from "lucide-react";
 
 export function Footer() {
   return (
@@ -69,28 +69,39 @@ export function Footer() {
 
           {/* Social Links */}
           <div>
-            <h4 className="text-white font-bold mb-4">Follow Us</h4>
-            <div className="flex gap-4">
+            <h4 className="text-white font-bold mb-4">Connect</h4>
+            <div className="flex flex-col gap-3">
+              <a
+                href="https://www.linkedin.com/in/ravi-verma-1b21959/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:text-cyan-400 transition-colors"
+              >
+                <Linkedin className="w-5 h-5" />
+                <span className="text-sm">LinkedIn</span>
+              </a>
+              <a
+                href="mailto:contact@vermawisdone.com"
+                className="flex items-center gap-2 hover:text-cyan-400 transition-colors"
+              >
+                <Mail className="w-5 h-5" />
+                <span className="text-sm">Email</span>
+              </a>
               <a
                 href="#"
-                className="hover:text-cyan-400 transition-colors"
+                className="flex items-center gap-2 hover:text-cyan-400 transition-colors"
                 title="Facebook"
               >
                 <Facebook className="w-5 h-5" />
+                <span className="text-sm">Facebook</span>
               </a>
               <a
                 href="#"
-                className="hover:text-cyan-400 transition-colors"
-                title="Twitter"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="hover:text-cyan-400 transition-colors"
+                className="flex items-center gap-2 hover:text-cyan-400 transition-colors"
                 title="Instagram"
               >
                 <Instagram className="w-5 h-5" />
+                <span className="text-sm">Instagram</span>
               </a>
             </div>
           </div>
