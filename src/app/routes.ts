@@ -3,6 +3,7 @@ import { Home } from "./pages/Home";
 import { CreatePost } from "./pages/CreatePost";
 import { BlogPost } from "./pages/BlogPost";
 import { About } from "./pages/About";
+import { PersonalFinance } from "./pages/PersonalFinance";
 
 export const router = createBrowserRouter([
   {
@@ -20,5 +21,9 @@ export const router = createBrowserRouter([
   {
     path: "/about",
     Component: About,
+  },
+  {
+    path: "/pf",
+    Component: PersonalFinance,
   },
 ]);
