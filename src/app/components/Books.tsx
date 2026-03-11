@@ -11,6 +11,7 @@ export function Books() {
     'Deep Work',
     'Art of Spending Money',
     'Just Keep Buying',
+    'Think Again',
   ]);
 
   const stockMarketViews = [
